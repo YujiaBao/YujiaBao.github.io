@@ -15,7 +15,7 @@ horizontal: false
 #### White Nebula Cottom Candy Tofu Cutie (Tofu)
 *CH* Velvet Sky's Lust for Life 💗 *OHBIS GCH* White Nebula Got My MonChhiChi Mojo
 
-<img style='height: 100%; width: 100%; object-fit: contain' src="/yujia/assets/img/tofu.jpeg" alt="drawing"/>
+<img style='height: 100%; width: 100%; object-fit: contain' src="/assets/img/tofu.jpeg" alt="drawing"/>
 
 Tofu [grew up](https://www.youtube.com/watch?v=n-X0U0RWxnc&t=136s) in Cambridge.
 She is always energetic and loves to [play
@@ -33,31 +33,13 @@ always be with us.
 
 <img style='height: 100%; width: 100%; object-fit: contain' src="/assets/img/yumi.jpeg" alt="drawing"/>
 
-Yumi doesn't like to play with strangers. A shy shy little girl ☺️
-However, once she knows you, she will play like crazy 🤪
-Yumi loves singing 🎵 and stealing delicious human food 🌭🍔🍕
+Yumi is an endearingly timid little girl who may appear reserved around strangers. However, once she establishes a bond, her playful nature truly shines. Yumi delights in singing and, with mischievous charm, occasionally indulges in stealing delicious human food
 <!--She has recently given birth to five little pups ⚡️⚡️⚡️-->
 <!--Yumi came as a ray of light to my life -->
 <!--Her unimaginable sweetness took me out of the sorrow.-->
 <!--As a multiple puppy group winner, she is absolutely beautiful.-->
 <!--Since she grew up in suburb, she is now getting used to the city environment.-->
 <!--While she pretend to be shy for now, I can see her hidden playful and child-like mindset.-->
-
----
-
-#### White Nebula Enchanted Sabre Dance (Sabre)
-*CH* Velvet Sky's Lust for Life 💗 *OHBIS GCH* White Nebula Got My MonChhiChi Mojo
-
-<img style='height: 100%; width: 100%; object-fit: contain' src="/assets/img/sabre.jpeg" alt="drawing"/>
-
-Sabre is the SWEETEST samoyed on the planet 🍭
-<!--He is curious and fearless.-->
-<!--While Tofu sometimes will get annoyed if you pet her for toooo long (´･ω･`),-->
-He enjoys human attention for **hours**.
-The big soft boy simply brings happiness to everyone ↖(^ω^)↗
-<!--Like his name (Sabre Dance), he has a bouncy bouncy movement when he walks.-->
-<!--I have no doubt that he will become a perfect threapy dog after he completes his-->
-<!--obediance training.-->
 
 ---
 
