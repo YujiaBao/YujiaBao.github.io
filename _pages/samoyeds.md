@@ -31,7 +31,7 @@ always be with us.
 #### Velvet Sky's It Starts with You and Me (Yumi)
 *GCh* Cirque D' Samz Tanks 4 The Memories at Arctic Fox 💗 *CH* Velvet Sky's Fuzzy Peach
 
-<img style='height: 100%; width: 100%; object-fit: contain' src="/yujia/assets/img/yumi.jpeg" alt="drawing"/>
+<img style='height: 100%; width: 100%; object-fit: contain' src="/assets/img/yumi.jpeg" alt="drawing"/>
 
 Yumi doesn't like to play with strangers. A shy shy little girl ☺️
 However, once she knows you, she will play like crazy 🤪
@@ -48,7 +48,7 @@ Yumi loves singing 🎵 and stealing delicious human food 🌭🍔🍕
 #### White Nebula Enchanted Sabre Dance (Sabre)
 *CH* Velvet Sky's Lust for Life 💗 *OHBIS GCH* White Nebula Got My MonChhiChi Mojo
 
-<img style='height: 100%; width: 100%; object-fit: contain' src="/yujia/assets/img/sabre.jpeg" alt="drawing"/>
+<img style='height: 100%; width: 100%; object-fit: contain' src="/assets/img/sabre.jpeg" alt="drawing"/>
 
 Sabre is the SWEETEST samoyed on the planet 🍭
 <!--He is curious and fearless.-->
@@ -58,6 +58,32 @@ The big soft boy simply brings happiness to everyone ↖(^ω^)↗
 <!--Like his name (Sabre Dance), he has a bouncy bouncy movement when he walks.-->
 <!--I have no doubt that he will become a perfect threapy dog after he completes his-->
 <!--obediance training.-->
+
+---
+
+#### White Nebula Enchanted Sabre Dance (Sabre)
+*CH* Velvet Sky's Lust for Life 💗 *OHBIS GCH* White Nebula Got My MonChhiChi Mojo
+
+<img style='height: 100%; width: 100%; object-fit: contain' src="/assets/img/sabre.jpeg" alt="drawing"/>
+
+<!--Sabre is the SWEETEST samoyed on the planet 🍭-->
+<!--[>He is curious and fearless.<]-->
+<!--[>While Tofu sometimes will get annoyed if you pet her for toooo long (´･ω･`),<]-->
+<!--He enjoys human attention for **hours**.-->
+<!--The big soft boy simply brings happiness to everyone ↖(^ω^)↗-->
+Sabre, the epitome of sweetness among samoyeds, adores basking in human attention for hours on end. This big, gentle soul effortlessly brings joy to everyone fortunate enough to encounter him, spreading happiness wherever he goes.
+<!--Like his name (Sabre Dance), he has a bouncy bouncy movement when he walks.-->
+<!--I have no doubt that he will become a perfect threapy dog after he completes his-->
+<!--obediance training.-->
+
+---
+
+#### OHBIS BGCH White Nebular Got My Mojo MonChhiChi (MonChhiChi)
+*BIS BISS GCh* McMagic Mojo X *Ch* Polar Mist An Easie Girl Like Me
+
+<img style='height: 100%; width: 100%; object-fit: contain' src="/assets/img/monchhichi.jpeg" alt="drawing"/>
+
+Smile! MonChhiChi, as Sabre's mom, radiates the signature Sammy smile. She exudes happiness and possesses a genuine fondness for food. Furthermore, she possesses a remarkable gift for healing, bringing joy and contentment to those around her.
 
 
 ##### Acknowledgements
