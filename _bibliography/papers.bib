@@ -1,84 +1,322 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{bao2022learning,
+  title={Learning to Split for Automatic Bias Detection},
+  author={Bao, Yujia and Barzilay, Regina},
+  journal={Preprint},
+  year={2022},
+  arxiv={2204.13749},
+  code={https://github.com/YujiaBao/ls},
+  selected={true},
+  abstract={Classifiers are biased when trained on biased datasets. As a remedy,
+            we propose Learning to Split (ls), an algorithm for automatic bias
+            detection. Given a dataset with input-label pairs, ls learns to
+            split this dataset so that predictors trained on the training split
+            generalize poorly to the testing split. This performance gap
+            provides a proxy for measuring the degree of bias in the learned
+            features and can therefore be used to reduce biases. Identifying
+            non-generalizable splits is challenging as we don't have any
+            explicit annotations about how to split. In this work, we show that
+            the prediction correctness of the testing example can be used as a
+            source of weak supervision: generalization performance will drop if
+            we move examples that are predicted correctly away from the testing
+            split, leaving only those that are mispredicted. We evaluate our
+            approach on Beer Review, Waterbirds, CelebA and MNLI. Empirical
+            results show that ls is able to generate astonishingly challenging
+            splits that correlate with human-identified biases. Moreover, we
+            demonstrate that combining robust learning algorithms (such as group
+            DRO) with splits identified by ls enables automatic de-biasing.
+            Compared with previous state-of-the-arts, we substantially improves
+            the worst-group performance (23.4\% on average) when the source of
+            biases is unknown during training and validation.
+    },
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
+@inproceedings{bao2021learning,
+    title={Learning Stable Classifiers by Transferring Unstable Features},
+    author={Bao, Yujia and Chang, Shiyu and Barzilay, Regina},
+    //year={2021},
+    //journal={Preprint},
+    booktitle={International Conference on Machine Learning},
+    year={2022},
+    arxiv={2106.07847},
+    code={https://github.com/YujiaBao/Tofu},
+    abstract={We study transfer learning in the presence of spurious
+              correlations. We experimen- tally demonstrate that directly
+              transferring the stable feature extractor learned on the source
+              task may not eliminate these biases for the target task. However,
+              we hypothesize that the unstable features in the source task and
+              those in the target task are directly related. By explicitly
+              informing the target classifier of the source task's unstable
+              features, we can regularize the biases in the target task.
+              Specifically, we derive a representation that encodes the unstable
+              features by contrasting different data environments in the source
+              task. On the target task, we cluster data from this
+              representation, and achieve robustness by minimizing the
+              worst-case risk across all clusters. We evaluate our method on
+              both text and image classifications. Empirical results demonstrate
+              that our algorithm is able to maintain robustness on the target
+              task, outperforming the best baseline by 22.9\% in absolute
+              accuracy across 12 trans- fer settings. Our code is available at
+              https://github.com/YujiaBao/Tofu.},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{bao2021predict,
+    title={Predict then Interpolate: A Simple Algorithm to Learn Stable Classifiers},
+    author={Bao, Yujia and Chang, Shiyu and Barzilay, Regina},
+    booktitle={International Conference on Machine Learning},
+    year={2021},
+    arxiv={2105.12628},
+    code={https://github.com/YujiaBao/Predict-then-Interpolate},
+    abstract={We propose Predict then Interpolate (PI), a simple algorithm for
+              learning correlations that are stable across environments. The
+              algorithm follows from the intuition that when using a classifier
+              trained on one environment to make predictions on examples from
+              another environment, its mistakes are informative as to which
+              correlations are unstable. In this work, we prove that by
+              interpolating the distributions of the correct predictions and the
+              wrong predictions, we can uncover an oracle distribution where the
+              unstable correlation vanishes. Since the oracle interpolation
+              coefficients are not accessible, we use group distributionally
+              robust optimization to minimize the worst-case risk across all
+              such interpolations. We evaluate our method on both text
+              classification and image classification. Empirical results
+              demonstrate that our algorithm is able to learn robust classifiers
+              (outperforms IRM by 23.85\% on synthetic environments and 12.41\% on
+              natural environments). Our code and data are available at
+              https://github.com/YujiaBao/Predict-then-Interpolate.},
+  selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{mckinley2021disease,
+  title={Disease spectrum of gastric cancer susceptibility genes},
+  author={McKinley, Sophia K and Singh, Preeti and Yin, Kanhua and Wang, Jin and Zhou, Jingan and Bao, Yujia and Wu, Menghua and Pathak, Kush and Mullen, John T and Braun, Danielle and  Hughes, Kevin S},
+  journal={Medical Oncology},
+  publisher={Springer US},
+  abstract={Pathogenic variants in germline cancer susceptibility genes can
+            increase the risk of a large number of diseases. Our study aims to
+            assess the disease spectrum of gastric cancer susceptibility genes
+            and to develop a comprehensive resource of gene–disease associations
+            for clinicians. Twenty-seven potential germline gastric cancer
+            susceptibility genes were identified from three review articles and
+            from six commonly used genetic information resources. The diseases
+            associated with each gene were evaluated via a semi-structured
+            review of six genetic resources and an additional literature review
+            using a natural language processing (NLP)-based procedure. Out of 27
+            candidate genes, 13 were identified as gastric cancer susceptibility
+            genes (APC, ATM, BMPR1A, CDH1, CHEK2, EPCAM, MLH1, MSH2, MSH6,
+            MUTYH-Biallelic, PALB2, SMAD4, and STK11). A total of 145
+            gene–disease associations (with 45 unique diseases) were found to be
+            associated with these 13 genes. Other gastrointestinal cancers were
+            prominent among identified associations, with 11 of 13 gastric
+            cancer susceptibility genes also associated with colorectal cancer,
+            eight genes associated with pancreatic cancer, and seven genes
+            associated with small intestine cancer. Gastric cancer
+            susceptibility genes are frequently associated with other diseases
+            as well as gastric cancer, with potential implications for how
+            carriers of these genes are screened and managed. Unfortunately,
+            commonly used genetic resources provide heterogeneous information
+            with regard to these genes and their associated diseases,
+            highlighting the importance of developing guides for clinicians that
+            integrate data across available resources and the medical
+            literature.},
+    year={2021},
+    html={https://link.springer.com/article/10.1007/s12032-021-01495-w},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{zhou2021non,
+  title={Non-medullary thyroid cancer susceptibility genes: evidence and disease spectrum},
+  author={Zhou, Jingan and Singh, Preeti and Yin, Kanhua and Wang, Jin and Bao, Yujia and Wu, Menghua and Pathak, Kush and McKinley, Sophia K and Braun, Danielle and Lubitz, Carrie C and Hughes, Kevin S},
+  journal={Annals of Surgical Oncology},
+  publisher={Springer International Publishing},
+  abstract={Background: The prevalence of non-medullary thyroid cancer (NMTC) is
+            increasing worldwide. Although most NMTCs grow slowly, conventional
+            therapies are less effective in advanced tumors. Approximately 5–15%
+            of NMTCs have a significant germline genetic component. Awareness of
+            the NMTC susceptibility genes may lead to earlier diagnosis and
+            better cancer prevention.  Objective: The aim of this study was to
+            provide the current panorama of susceptibility genes associated with
+            NMTC and the spectrum of diseases associated with these genes.
+            Methods: Twenty-five candidate genes were identified by searching
+            for relevant studies in PubMed. Each candidate gene was carefully
+            checked using six authoritative genetic resources: ClinGen, National
+            Comprehensive Cancer Network guidelines, Online Mendelian
+            Inheritance in Man, Genetics Home Reference, GeneCards, and
+            Gene-NCBI, and a validated natural language processing (NLP)-based
+            literature review protocol was used to further assess gene–disease
+            associations where there was ambiguity.  Results: Among 25 candidate
+            genes, 10 (APC, DICER1, FOXE1, HABP2, NKX2-1, PRKAR1A, PTEN, SDHB,
+            SDHD, and SRGAP1) were verified among the six genetic resources. Two
+            additional genes, CHEK2 and SEC23B, were verified using the NLP
+            protocol. Seventy-nine diseases were found to be associated with
+            these 12 NMTC susceptibility genes. The following diseases were
+            associated with more than one NMTC susceptibility gene: colorectal
+            cancer, breast cancer, gastric cancer, kidney cancer,
+            gastrointestinal stromal tumor, paraganglioma, pheochromocytoma, and
+            benign skin conditions.  Conclusion: Twelve genes predisposing to
+            NMTC and their associated disease spectra were identified and
+            verified. Clinicians should be aware that patients with certain
+            pathogenic variants may require more aggressive surveillance beyond
+            their thyroid cancer risk.},
+    year={2021},
+    html={https://link.springer.com/article/10.1245/s10434-021-09745-x},
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{wang2021disease,
+  title={Disease spectrum of breast cancer susceptibility genes},
+  author={Wang, Jin and Singh, Preeti and Yin, Kanhua and Zhou, Jingan and Bao, Yujia and Wu, Menghua and Pathak, Kush and McKinley, Sophia K and Braun, Danielle and Hughes, Kevin S},
+  journal={Frontiers in Oncology},
+  publisher={Frontiers Media SA},
+  abstract={Background: Pathogenic variants in cancer susceptibility genes can
+            increase the risk of a spectrum of diseases, which clinicians must
+            manage for their patients. We evaluated the disease spectrum of
+            breast cancer susceptibility genes (BCSGs) with the aim of
+            developing a comprehensive resource of gene-disease associations for
+            clinicians. Methods: Twelve genes (ATM, BARD1, BRCA1, BRCA2, CDH1,
+            CHEK2, NF1, PALB2, PTEN, RECQL, STK11, and TP53), all of which have
+            been conclusively established as BCSGs by the Clinical Genome
+            Resource (ClinGen) and/or the NCCN guidelines, were investigated.
+            The potential gene-disease associations for these 12 genes were
+            verified and evaluated based on six genetic resources (ClinGen,
+            NCCN, OMIM, Genetics Home Reference, GeneCards, and Gene-NCBI) and
+            an additional literature review using a semiautomated natural
+            language processing (NLP) abstract classification procedure.
+            Results: Forty-two diseases were found to be associated with one or
+            more of the 12 BCSGs for a total of 86 gene-disease associations, of
+            which 90% (78/86) were verified by ClinGen and/or NCCN. Four
+            gene-disease associations could not be verified by either ClinGen or
+            NCCN but were verified by at least three of the other four genetic
+            resources. Four gene-disease associations were verified by the NLP
+            procedure alone.  Conclusion: This study is unique in that it
+            systematically investigates the reported disease spectrum of BCSGs
+            by surveying multiple genetic resources and the literature with the
+            aim of developing a single consolidated, comprehensive resource for
+            clinicians. This innovative approach provides a general guide for
+            evaluating gene-disease associations for BCSGs, potentially
+            improving the clinical management of at-risk individuals.},
+    year={2021},
+    html={https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8093501/pdf/fonc-11-663419.pdf},
+}
+
+---
+@inproceedings{bao2020fewshot,
+    title={Few-shot Text Classification with Distributional Signatures},
+    author={Bao*, Yujia and Wu*, Menghua and Chang, Shiyu and Barzilay, Regina},
+    booktitle={International Conference on Learning Representations},
+    year={2020},
+    html={https://openreview.net/forum?id=H1emfT4twB},
+    arxiv={1908.06039},
+    code={https://github.com/YujiaBao/Distributional-Signatures},
+    abstract={In this paper, we explore meta-learning for few-shot text classification. Meta-learning has shown strong performance in computer vision, where low-level patterns are transferable across learning tasks. However, directly applying this approach to text is challenging--words highly informative for one task may have little significance for another. Thus, rather than learning solely from words, our model also leverages their distributional signatures, which encode pertinent word occurrence patterns. Our model is trained within a meta-learning framework to map these signatures into attention scores, which are then used to weight the lexical representations of words. We demonstrate that our model consistently outperforms prototypical networks in both few-shot text classification and relation classification by a significant margin across six benchmark datasets (19.96\% on average in 1-shot classification).},
+  selected={true}
+}
+
+@article{hughesnatural,
+  title={Natural language processing to facilitate breast cancer research and management},
+  author={Hughes, Kevin S. and Zhou, Jingan and Bao, Yujia and Singh, Preeti and Wang, Jin and Yin, Kanhua},
+  journal={The Breast Journal},
+  publisher={Wiley Online Library},
+  abstract={The medical literature has been growing exponentially, and its size
+            has become a barrier for physicians to locate and extract clinically
+            useful information. As a promising solution, natural language
+            processing (NLP), especially machine learning (ML)‐based NLP is a
+            technology that potentially provides a promising solution. ML‐based
+            NLP is based on training a computational algorithm with a large
+            number of annotated examples to allow the computer to “learn” and
+            “predict” the meaning of human language. Although NLP has been
+            widely applied in industry and business, most physicians still are
+            not aware of the huge potential of this technology in medicine, and
+            the implementation of NLP in breast cancer research and management
+            is fairly limited. With a real‐world successful project of
+            identifying penetrance papers for breast and other cancer
+            susceptibility genes, this review illustrates how to train and
+            evaluate an NLP‐based medical abstract classifier, incorporate it
+            into a semiautomatic meta‐analysis procedure, and validate the
+            effectiveness of this procedure. Other implementations of NLP
+            technology in breast cancer research, such as parsing pathology
+            reports and mining electronic healthcare records, are also
+            discussed. We hope this review will help breast cancer physicians
+            and researchers to recognize, understand, and apply this technology
+            to meet their own clinical or research needs.},
+    year={2020},
+    html={https://onlinelibrary.wiley.com/doi/abs/10.1111/tbj.13718},
+}
+---
+@article{doi:10.1200/CCI.19.00043,
+author = {Deng*, Zhengyi and Yin*, Kanhua and Bao, Yujia and Armengol, Victor Diego and Wang, Cathy and Tiwari, Ankur and Barzilay, Regina and Parmigiani, Giovanni and Braun, Danielle and Hughes, Kevin S.},
+title = {Validation of a Semiautomated Natural Language Processing–Based Procedure for Meta-Analysis of Cancer Susceptibility Gene Penetrance},
+journal = {JCO Clinical Cancer Informatics},
+volume = {},
+number = {3},
+pages = {1-9},
+year = {2019},
+doi = {10.1200/CCI.19.00043},
+html = {https://ascopubs.org/doi/abs/10.1200/CCI.19.00043},
+code={https://github.com/YujiaBao/PubmedClassifier},
+eprint = {https://ascopubs.org/doi/pdf/10.1200/CCI.19.00043},
+abstract = {PURPOSE: Quantifying the risk of cancer associated with pathogenic mutations in germline cancer susceptibility genes—that is, penetrance—enables the personalization of preventive management strategies. Conducting a meta-analysis is the best way to obtain robust risk estimates. We have previously developed a natural language processing (NLP) –based abstract classifier which classifies abstracts as relevant to penetrance, prevalence of mutations, both, or neither. In this work, we evaluate the performance of this NLP-based procedure. MATERIALS AND METHODS: We compared the semiautomated NLP-based procedure, which involves automated abstract classification and text mining, followed by human review of identified studies, with the traditional procedure that requires human review of all studies. Ten high-quality gene–cancer penetrance meta-analyses spanning 16 gene–cancer associations were used as the gold standard by which to evaluate the performance of our procedure. For each meta-analysis, we evaluated the number of abstracts that required human review (workload) and the ability to identify the studies that were included by the authors in their quantitative analysis (coverage). RESULTS: Compared with the traditional procedure, the semiautomated NLP-based procedure led to a lower workload across all 10 meta-analyses, with an overall 84\% reduction (2,774 abstracts v 16,941 abstracts) in the amount of human review required. Overall coverage was 93\%—we are able to identify 132 of 142 studies—before reviewing references of identified studies. Reasons for the 10 missed studies included blank and poorly written abstracts. After reviewing references, nine of the previously missed studies were identified and coverage improved to 99\% (141 of 142 studies). CONCLUSION: We demonstrated that an NLP-based procedure can significantly reduce the review workload without compromising the ability to identify relevant studies. NLP algorithms have promising potential for reducing human efforts in the literature review process. }
+}
+
+@article{bao2019using,
+author = {Yujia Bao* and Zhengyi Deng* and Yan Wang and Heeyoon Kim and Victor Diego Armengol and Francisco Acevedo and Nofal Ouardaoui and Cathy Wang and Giovanni Parmigiani and Regina Barzilay and Danielle Braun and Kevin S Hughes},
+title = {Using Machine Learning and Natural Language Processing to Review and Classify the Medical Literature on Cancer Susceptibility Genes},
+journal = {JCO Clinical Cancer Informatics},
+year = {2019},
+arxiv = {1904.12617},
+code={https://github.com/YujiaBao/PubmedClassifier},
+html={https://ascopubs.org/doi/pdf/10.1200/CCI.19.00042},
+abstract = {PURPOSE: The medical literature relevant to germline genetics is growing exponentially. Clinicians need tools monitoring and prioritizing the literature to understand the clinical implications of the pathogenic genetic variants. We developed and evaluated two machine learning models to classify abstracts as relevant to the penetrance (risk of cancer for germline mutation carriers) or prevalence of germline genetic mutations. METHODS: We conducted literature searches in PubMed and retrieved paper titles and abstracts to create an annotated dataset for training and evaluating the two machine learning classification models. Our first model is a support vector machine (SVM) which learns a linear decision rule based on the bag-of-ngrams representation of each title and abstract. Our second model is a convolutional neural network (CNN) which learns a complex nonlinear decision rule based on the raw title and abstract. We evaluated the performance of the two models on the classification of papers as relevant to penetrance or prevalence. RESULTS: For penetrance classification, we annotated 3740 paper titles and abstracts and evaluated the two models using 10-fold cross-validation. The SVM model achieves 88.93% accuracy (percentage of papers that were correctly classified) while the CNN model achieves 88.53 % accuracy. For prevalence classification, we annotated 3753 paper titles and abstracts. The SVM model achieves 88.92% accuracy while the CNN model achieves 88.52 % accuracy. CONCLUSION: Our models achieve high accuracy in classifying abstracts as relevant to penetrance or prevalence. By facilitating literature review, this tool could help clinicians and researchers keep abreast of the burgeoning knowledge of gene-cancer associations and keep the knowledge bases for clinical decision support tools up to date.},
+}
+
+
+@inproceedings{r2a,
+  title={Deriving Machine Attention from Human Rationales},
+  author={Bao, Yujia and Chang, Shiyu and Yu, Mo and Barzilay, Regina},
+  booktitle={Empirical Methods in Natural Language Processing},
+  year={2018},
+  arxiv={1808.09367},
+  code={https://github.com/YujiaBao/R2A},
+  abstract={Attention-based models are successful when trained on large amounts of data. In this paper, we demonstrate that even in the low-resource scenario, attention can be learned effectively. To this end, we start with discrete human-annotated rationales and map them into continuous attention. Our central hypothesis is that this mapping is general across domains, and thus can be transferred from resource-rich domains to low-resource ones. Our model jointly learns a domain-invariant representation and induces the desired mapping between rationales and attention. Our empirical results validate this hypothesis and show that our approach delivers significant gains over state-of-the-art baselines, yielding over 15\% average error reduction on benchmark datasets.},
+  slides= {r2a_slides.pdf},
+  selected={true}
+}
+
+@incollection{baselineregularization,
+  title={A Machine-Learning Based Drug Repurposing Approach Using Baseline Regularization},
+  author={Kuang, Zhaobin and Bao, Yujia and Thomson, James and Caldwell, Michael and Peissig, Peggy and Stewart, Ron and Willett, Rebecca and Page, David},
+  booktitle={Silico Methods for Drug Repurposing: Methods and Protocols},
+  year={2019},
+  pdf={baselineregularization.pdf},
+  publisher="Springer",
+  abstract={We present the baseline regularization model for computational drug repurposing using electronic health records (EHRs). In EHRs, drug prescriptions of various drugs are recorded throughout time for various patients. In the same time, numeric physical measurements (e.g. fasting blood sugar level) are also recorded. Baseline regularization uses statistical relationships between the occurrences of prescriptions of some particular drugs and the increase or the decrease in the values of some particular numeric physical measurements to identify potential repurposing opportunities.}
+}
+
+@inproceedings{hawkes,
+  title={Hawkes Process Modeling of Adverse Drug Reactions with Longitudinal Observational Data},
+  author={Bao, Yujia and Kuang, Zhaobin and  Peissig, Peggy and Page, David and Willett, Rebecca },
+  booktitle={Machine Learning for Healthcare Conference},
+  year={2017},
+  pdf={hawkes_pdf.pdf},
+  slides={hawkes_slides.pdf},
+  poster={hawkes_poster.pdf},
+  code={https://github.com/YujiaBao/Hawkes-ADR},
+  abstract={Adverse drug reaction (ADR) discovery is the task of identifying unexpected and negative events caused by pharmaceutical products. This paper describes a log-linear Hawkes process model for ADR discovery from longitudinal observational data such as electronic health records (EHRs). The proposed method leverages the irregular time-stamped events in EHRs to represent the time-varying effect of various drugs on the occurrence rate of adverse events. Experimental results on a large-scale cohort of real-world EHRs demonstrate that the proposed method outperforms a leading approach, multiple self-controlled case series (Simpson et al., 2013), in identifying benchmark ADRs defined by the Observational Medical Outcomes Partnership.}
+}
+
+@mastersthesis{rrqr,
+  author            = {Yujia Bao},
+  title             = {Rank Revealing Algorithms and their Applications},
+  school            = {Shanghai Jiao Tong University},
+  year              = {2016},
+  type              = {Bachelor Thesis},
+  month             = {June},
+  pdf               = {rrqr_pdf.pdf},
+  slides            = {rrqr_slides.pdf},
+  supervisor        = {Zengqi Wang},
+  abstract={As the era of big data is coming, rank revealing QR (RRQR) factorization has more and more applications on rank deficient problems such as subset selection, least squares problem, total least squares problem. This thesis systematically studied the RRQR algorithms. The main contributions are summarized as following:
+1. This thesis presents a systematic review of three kinds of widely-used and high- performance RRQR algorithms. I extend some existing theorems and indepen- dently complete some parts of the theoretical analysis.
+2. Based on the existing methods, I propose a new greedy strong RRQR algorithm for computing a strong RRQR factorization. The new algorithm greatly improves the time efficiency of the origin algorithm.
+3. I design a series of numerical experiments to show the computation characteristics of different kinds of algorithms.
+Theoretical analysis and numerical results show that both the origin strong RRQR al- gorithm and the new greedy strong RRQR algorithm can promise a strong RRQR fac- torization while the new algorithm is significantly faster than the origin algorithm. For rank deficient problem, RRQR factorization gives satisfactory computation accuracy while it is much more efficient than the traditional method, which involves computing the SVD.},
+  onsitecode = {rrqr_code.zip},
+  award = {(Excellent Thesis Award)},
 }

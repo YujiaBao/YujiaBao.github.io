@@ -2,25 +2,79 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+<!--description: # <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.-->
 
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  align: left
+  image: icon.jpeg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news item
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<br>
+<br>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+###### 🧑🏻‍🔬 Lead machine learning scientist @ [Insitro](https://insitro.com)
+###### 🐾 A proud owner of [samoyeds](http://www.whitenebulasamoyeds.com)
+###### 🏛 Completed Ph.D. at [MIT CSAIL](https://www.csail.mit.edu)
+###### 🏃‍♂️   Staying [active](https://track.rtrt.me/e/TLMR-SPRING-CLASSIC-2022#/tracker/RCY4ABVW) in Cambridge, MA
+<h6 class="e-mail" data-user="oab 📮" data-website="oi.aijuy" dir="rtl"></h6>
+<!--Thank you Victor-->
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+---
+
+<br>
+
+### We need **Efficient AI** 
+##### 🚀 connecting human rationales with model attention for low-resource learning<sup>1</sup>
+##### 🚀 meta learning over distributional signatures for few-shot classification<sup>2</sup>
+
+<br>
+
+### We need **Robust AI** 
+##### 🛡 identifying spurious correlations by contrasting different data environments<sup>3</sup>
+##### 🛡 transferring the knowledge of biases across tasks<sup>4</sup>
+##### 🛡 learning to split any dataset so that predictors cannot generalize across the splits<sup>5</sup>
+
+
+<br>
+
+##### **Want to know more?** Check out my thesis defense on [YouTube](https://www.youtube.com/watch?v=_7w1b3M8WqI).
+
+<br>
+
+---
+
+<br>
+### Learning is a lifelong journey.
+<br>
+
+###### 🎓 B.S. in Mathematics & Applied Mathematics, Shanghai Jiao Tong University, 2016.
+###### 🎓 M.A. in Mathematics, University of Wisconsin-Madison, 2017.
+###### 🎓 S.M. in Computer Science, MIT, 2019.
+###### 🎓 Ph.D. in Computer Science, MIT, 2022 (advised by [Regina Barzilay](http://people.csail.mit.edu/regina)).
+###### 🧐 Continue thinking.
+
+<br>
+
+---
+
+<br>
+
+### References
+<br>
+1. **Yujia Bao**, Shiyu Chang, Mo Yu, Regina Barzilay. [*"Deriving Machine Attention from Human Rationales."*](http://arxiv.org/abs/1808.09367) EMNLP 2018.
+2. **Yujia bao**, Menghua Wu, Shiyu Chang, Regina Barzilay. [*"Few-shot Text Classification with Distributional Signatures."*](http://arxiv.org/abs/1908.06039) ICLR 2020.
+3. **Yujia Bao**, Shiyu Chang, Regina Barzilay. [*"Predict then Interpolate: A Simple Algorithm to Learn Stable Classifiers."*](http://arxiv.org/abs/2105.12628) ICML 2021.
+4. **Yujia Bao**, Shiyu Chang, Regina Barzilay. [*"Learning Stable Classifiers by Transferring Unstable Features."*](https://arxiv.org/abs/2106.07847) ICML 2022.
+5. **Yujia Bao**, Regina Barzilay. [*"Learning to Split for Automatic Bias Detection."*](https://arxiv.org/abs/2204.13749) arXiv 2022.
+
+
+<br>
+
+---
+
+<br>
