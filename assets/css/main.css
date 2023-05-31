@@ -226,12 +226,14 @@ blockquote {
 }
 
 .profile {
+  margin-right: 2rem;
   width: 100%;
 }
 .profile .address {
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-bottom: 0rem;
+  margin-top: 0px;
   font-family: monospace;
+  font-size: 1.2rem;
 }
 .profile .address p {
   display: inline-block;
@@ -248,7 +250,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 40%;
   }
   .profile .address p {
     display: block;
