@@ -55,7 +55,7 @@ social: true  # includes social icons at the bottom of the page
 ###### 🎓 B.S. in Mathematics & Applied Mathematics, Shanghai Jiao Tong University, 2016.
 ###### 🎓 M.A. in Mathematics, University of Wisconsin-Madison, 2017.
 ###### 🎓 S.M. in Computer Science, MIT, 2019.
-###### 🎓 Ph.D. in Computer Science, MIT, 2022 (advised by [Regina Barzilay](http://people.csail.mit.edu/regina)).
+###### 🎓 Ph.D. in Computer Science, MIT, 2022 (advised by [Regina Barzilay](https://people.csail.mit.edu/regina)).
 ###### 🧐 Continue thinking.
 
 <br>
@@ -66,9 +66,9 @@ social: true  # includes social icons at the bottom of the page
 
 ### References
 <br>
-1. **Yujia Bao**, Shiyu Chang, Mo Yu, Regina Barzilay. [*"Deriving Machine Attention from Human Rationales."*](http://arxiv.org/abs/1808.09367) EMNLP 2018.
-2. **Yujia bao**, Menghua Wu, Shiyu Chang, Regina Barzilay. [*"Few-shot Text Classification with Distributional Signatures."*](http://arxiv.org/abs/1908.06039) ICLR 2020.
-3. **Yujia Bao**, Shiyu Chang, Regina Barzilay. [*"Predict then Interpolate: A Simple Algorithm to Learn Stable Classifiers."*](http://arxiv.org/abs/2105.12628) ICML 2021.
+1. **Yujia Bao**, Shiyu Chang, Mo Yu, Regina Barzilay. [*"Deriving Machine Attention from Human Rationales."*](https://arxiv.org/abs/1808.09367) EMNLP 2018.
+2. **Yujia bao**, Menghua Wu, Shiyu Chang, Regina Barzilay. [*"Few-shot Text Classification with Distributional Signatures."*](https://arxiv.org/abs/1908.06039) ICLR 2020.
+3. **Yujia Bao**, Shiyu Chang, Regina Barzilay. [*"Predict then Interpolate: A Simple Algorithm to Learn Stable Classifiers."*](https://arxiv.org/abs/2105.12628) ICML 2021.
 4. **Yujia Bao**, Shiyu Chang, Regina Barzilay. [*"Learning Stable Classifiers by Transferring Unstable Features."*](https://arxiv.org/abs/2106.07847) ICML 2022.
 5. **Yujia Bao**, Regina Barzilay. [*"Learning to Split for Automatic Bias Detection."*](https://arxiv.org/abs/2204.13749) arXiv 2022.
 

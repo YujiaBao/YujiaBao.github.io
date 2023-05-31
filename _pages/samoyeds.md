@@ -70,8 +70,6 @@ Smile! MonChhiChi, as Sabre's mom, radiates the signature Sammy smile. She exude
 
 ##### Acknowledgements
 
-Thank you [Eliza](http://www.whitenebulasamoyeds.com) for brining these angels
+Thank you [Eliza](https://www.whitenebulasamoyeds.com) for brining these angels
 to my life and guiding me all the way.
-Thank you [Gina](https://www.justdogstraining.com) for the all help and advices
-on trainining.
 
