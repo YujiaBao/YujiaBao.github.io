@@ -37,7 +37,7 @@ social: true  # includes social icons at the bottom of the page
 ##### 🛡 identifying spurious correlations by contrasting different data environments<sup>3</sup>
 ##### 🛡 transferring the knowledge of biases across tasks<sup>4</sup>
 ##### 🛡 learning to split any dataset so that predictors cannot generalize across the splits<sup>5</sup>
-##### 🛡 context-aware vision transformers<sup>6</sup>
+##### 🛡 mitigating batch effects by equpping vision transformers with context conditioning<sup>6</sup>
 
 
 <br>

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 🐾🐾🐾
+title: bio
 permalink: /bio/
 <!--description: # I cannot imagine living without my dogs. They are my angels, making me happy every day.-->
 nav: true
