@@ -37,6 +37,7 @@ social: true  # includes social icons at the bottom of the page
 ##### 🛡 identifying spurious correlations by contrasting different data environments<sup>3</sup>
 ##### 🛡 transferring the knowledge of biases across tasks<sup>4</sup>
 ##### 🛡 learning to split any dataset so that predictors cannot generalize across the splits<sup>5</sup>
+##### 🛡 context-aware vision transformers<sup>6</sup>
 
 
 <br>
@@ -69,7 +70,8 @@ social: true  # includes social icons at the bottom of the page
 2. **Yujia bao**, Menghua Wu, Shiyu Chang, Regina Barzilay. [*"Few-shot Text Classification with Distributional Signatures."*](https://arxiv.org/abs/1908.06039) ICLR 2020.
 3. **Yujia Bao**, Shiyu Chang, Regina Barzilay. [*"Predict then Interpolate: A Simple Algorithm to Learn Stable Classifiers."*](https://arxiv.org/abs/2105.12628) ICML 2021.
 4. **Yujia Bao**, Shiyu Chang, Regina Barzilay. [*"Learning Stable Classifiers by Transferring Unstable Features."*](https://arxiv.org/abs/2106.07847) ICML 2022.
-5. **Yujia Bao**, Regina Barzilay. [*"Learning to Split for Automatic Bias Detection."*](https://arxiv.org/abs/2204.13749) arXiv 2022.
+5. **Yujia Bao**, Regina Barzilay. [*"Learning to Split for Automatic Bias Detection."*](https://arxiv.org/abs/2204.13749) preprint.
+6. **Yujia Bao**, Theofanis Karaletsos. [*"Contextual Vision Transformers for Robust Representation Learning"*](https://arxiv.org/abs/2305.19402) preprint.
 
 
 <br>
