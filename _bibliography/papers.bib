@@ -1,3 +1,35 @@
+@article{bao2023contextual,
+  title={Contextual Vision Transformers for Robust Representation Learning},
+  author={Bao, Yujia and Karaletsos, Theofanis},
+  journal={Preprint},
+  year={2023},
+  arxiv={2305.19402},
+  selected={true},
+  abstract={
+        We present Contextual Vision Transformers (ContextViT), a method for
+        producing robust feature representations for images exhibiting grouped
+        structure such as covariates. ContextViT introduces an extra context
+        token to encode group-specific information, allowing the model to
+        explain away group-specific covariate structures while keeping core
+        visual features shared across groups. Specifically, given an input
+        image, Context-ViT maps images that share the same covariate into this
+        context token appended to the input image tokens to capture the effects
+        of conditioning the model on group membership. We furthermore introduce
+        a context inference network to predict such tokens on the fly given a
+        few samples from a group distribution, enabling ContextViT to generalize
+        to new testing distributions at inference time. We illustrate the
+        performance of ContextViT through a diverse range of applications. In
+        supervised fine-tuning, we demonstrate that augmenting pre-trained ViTs
+        with additional context conditioning leads to significant improvements
+        in out-of-distribution generalization on iWildCam and FMoW. We also
+        explored self-supervised representation learning with ContextViT. Our
+        experiments on the Camelyon17 pathology imaging benchmark and the
+        cpg-0000 microscopy imaging benchmark demonstrate that ContextViT excels
+        in learning stable image featurizations amidst covariate shift,
+        consistently outperforming its ViT counterpart.
+    },
+}
+
 @article{bao2022learning,
   title={Learning to Split for Automatic Bias Detection},
   author={Bao, Yujia and Barzilay, Regina},
