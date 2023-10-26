@@ -27,7 +27,7 @@ social: true  # includes social icons at the bottom of the page
 
 <br>
 
-##### Hello! I'm a machine learning researcher with a background in Mathematics. I've been immersed in this field since 2016 and have had the opportunity to work on some fascinating projects.
+Hello! I'm a machine learning researcher with a background in Mathematics. I've been immersed in this field since 2016 and have had the opportunity to work on some fascinating projects.
 
 <br>
 
@@ -53,7 +53,7 @@ In the realm of cell imaging, I've been at the forefront of developing foundatio
 
 <br>
 
-##### What keeps me motivated is my passion for learning and the thrill of creating something new. Every day brings a new opportunity to explore and innovate, and that's what I find truly exciting.
+I'm driven by my love for learning and the excitement that comes from creating something new. Each day offers a new chance to explore and innovate, which I find truly thrilling.
 
 <br>
 
