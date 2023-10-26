@@ -25,38 +25,40 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-<br>
 
-### We need **Efficient AI** 
-##### 🚀 connecting human rationales with model attention for low-resource learning<sup>1</sup>
-##### 🚀 meta learning over distributional signatures for few-shot classification<sup>2</sup>
-
-<br>
-
-### We need **Robust AI** 
-##### 🛡 identifying spurious correlations by contrasting different data environments<sup>3</sup>
-##### 🛡 transferring the knowledge of biases across tasks<sup>4</sup>
-##### 🛡 learning to split any dataset so that predictors cannot generalize across the splits<sup>5</sup>
-##### 🛡 mitigating batch effects by equpping vision transformers with context conditioning<sup>6</sup>
+##### Hello! I'm a machine learning researcher with a background in Mathematics. I've been immersed in this field since 2016 and have had the opportunity to work on some fascinating projects.
 
 
-<br>
+### Developing NLP Systems with Minimal Task-Dependent Annotations
+##### I've focused on creating more efficient NLP systems that require fewer task-specific annotations. My key contributions include:
++ Enhancing data efficiency by aligning human rationales with attention models.<sup>1</sup>
++ Constructing distributional signatures for few-shot text classification.<sup>2</sup>
 
-##### **Want to know more?** Check out my thesis defense on [YouTube](https://www.youtube.com/watch?v=_7w1b3M8WqI).
+### Addressing Bias in Machine Learning
+##### I firmly believe that fairness in machine learning is crucial, especially as biased datasets can lead to biased models. My work in this area includes:
++ Mitigating spurious correlations by contrasting different data environments.<sup>3</sup>
++ Transferring the knowledge of biases across tasks.<sup>4</sup>
++ Automatic bias discovery by learning challening splits from labeled datasets.<sup>5</sup>
+
+### Advancing Foundational Models for Cell Imaging
+##### In the realm of cell imaging, I've been at the forefront of developing foundational models. My work includes:
++ Enhancing vision transformers with context pre-conditioning for improved generalization over distribution shifts.<sup>6</sup>
++ Enabling cross-channel and cross-position reasoning for vision transformers on multi-channel imaging.<sup>7</sup>
+
+##### What keeps me motivated is my passion for learning and the thrill of creating something new. Every day brings a new opportunity to explore and innovate, and that's what I find truly exciting.
 
 <br>
 
 ---
 
 <br>
-### Learning is a lifelong journey.
+### Education
 <br>
 
 ###### 🎓 B.S. in Mathematics & Applied Mathematics, Shanghai Jiao Tong University, 2016.
 ###### 🎓 M.A. in Mathematics, University of Wisconsin-Madison, 2017.
 ###### 🎓 S.M. in Computer Science, MIT, 2019.
 ###### 🎓 Ph.D. in Computer Science, MIT, 2022 (advised by [Regina Barzilay](https://people.csail.mit.edu/regina)).
-###### 🧐 Continue thinking.
 
 <br>
 
@@ -70,9 +72,9 @@ social: true  # includes social icons at the bottom of the page
 2. **Yujia bao**, Menghua Wu, Shiyu Chang, Regina Barzilay. [*"Few-shot Text Classification with Distributional Signatures."*](https://arxiv.org/abs/1908.06039) ICLR 2020.
 3. **Yujia Bao**, Shiyu Chang, Regina Barzilay. [*"Predict then Interpolate: A Simple Algorithm to Learn Stable Classifiers."*](https://arxiv.org/abs/2105.12628) ICML 2021.
 4. **Yujia Bao**, Shiyu Chang, Regina Barzilay. [*"Learning Stable Classifiers by Transferring Unstable Features."*](https://arxiv.org/abs/2106.07847) ICML 2022.
-5. **Yujia Bao**, Regina Barzilay. [*"Learning to Split for Automatic Bias Detection."*](https://arxiv.org/abs/2204.13749) preprint.
-6. **Yujia Bao**, Theofanis Karaletsos. [*"Contextual Vision Transformers for Robust Representation Learning"*](https://arxiv.org/abs/2305.19402) preprint.
-
+5. **Yujia Bao**, Regina Barzilay. [*"Learning to Split for Automatic Bias Detection."*](https://arxiv.org/abs/2204.13749) arXiv 2022.
+6. **Yujia Bao**, Theofanis Karaletsos. [*"Contextual Vision Transformers for Robust Representation Learning"*](https://arxiv.org/abs/2305.19402) arXiv 2023.
+7. **Yujia Bao**, Srinivasan Sivanandan, Theofanis Karaletsos. [*"Channel Vision Transformers: An Image Is Worth C x 16 x 16 Words"*](https://arxiv.org/abs/2309.16108v3) arXiv 2023.
 
 <br>
 
