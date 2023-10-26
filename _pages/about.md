@@ -29,19 +29,24 @@ social: true  # includes social icons at the bottom of the page
 
 ##### Hello! I'm a machine learning researcher with a background in Mathematics. I've been immersed in this field since 2016 and have had the opportunity to work on some fascinating projects.
 
+<br>
 
-#### **Developing NLP Systems with Minimal Task-Dependent Annotations**
+##### **Developing NLP Systems with Minimal Task-Dependent Annotations**
 I've focused on creating more efficient NLP systems that require fewer task-specific annotations. My key contributions include:
 + Enhancing data efficiency by aligning human rationales with attention models.<sup>1</sup>
 + Constructing distributional signatures for few-shot text classification.<sup>2</sup>
 
-#### **Addressing Bias in Machine Learning**
+<br>
+
+##### **Addressing Bias in Machine Learning**
 I firmly believe that fairness in machine learning is crucial, especially as biased datasets can lead to biased models. My work in this area includes:
 + Mitigating spurious correlations by contrasting different data environments.<sup>3</sup>
 + Transferring the knowledge of biases across tasks.<sup>4</sup>
 + Automatic bias discovery by learning challening splits from labeled datasets.<sup>5</sup>
 
-#### **Advancing Foundational Models for Cell Imaging**
+<br>
+
+##### **Advancing Foundational Models for Cell Imaging**
 In the realm of cell imaging, I've been at the forefront of developing foundational models. My work includes:
 + Enhancing vision transformers with context pre-conditioning for improved generalization over distribution shifts.<sup>6</sup>
 + Enabling cross-channel and cross-position reasoning for vision transformers on multi-channel imaging.<sup>7</sup>
