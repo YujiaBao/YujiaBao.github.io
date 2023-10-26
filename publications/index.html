@@ -125,7 +125,124 @@
 
 
   <h2 class="year">2023</h2>
-  <ol class="bibliography"><li>
+  <ol class="bibliography">
+<li>
+<div class="row" style="display:block">
+  <div class="col-sm-2 abbr" style="margin: 0">
+  
+  </div>
+  <div id="bao2023channel" class="col-sm-8" style="margin: 0">
+    
+      <div class="title" style="fontsize: 120%">Channel Vision Transformers: An Image Is Worth C x 16 x 16 Words</div>
+      <div class="author" style="margin: 0">
+        
+          
+          
+          
+          
+          
+            
+              
+                <strong>Yujia Bao</strong>,
+              
+            
+          
+        
+          
+          
+          
+          
+          
+            
+              
+                
+                  Srinivasan Sivanandan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Theofanis Karaletsos
+                
+              
+            
+          
+        
+      </div>
+      <div class="periodical">
+      
+        <em>arXiv preprint arXiv:2309.16108</em>
+      
+      
+        2023
+      
+      </div>
+    
+    <div class="links" style="margin: 0">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+      <a href="https://arxiv.org/abs/arXiv:2309.16108" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">arXiv</a>
+    
+    
+    
+    
+    
+    
+    
+      <a href="https://github.com/insitro/ChannelViT" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Code</a>
+    
+    
+    
+    
+    </div>
+    <!--[> Hidden abstract block <]-->
+    
+    <div class="abstract hidden">
+      <p>Vision Transformer (ViT) has emerged as a powerful architecture in
+            the realm of modern computer vision. However, its application in
+            certain imaging fields, such as microscopy and satellite imaging,
+            presents unique challenges. In these domains, images often contain
+            multiple channels, each carrying semantically distinct and
+            independent information. Furthermore, the model must demonstrate
+            robustness to sparsity in input channels, as they may not be densely
+            available during training or testing. In this paper, we propose a
+            modification to the ViT architecture that enhances reasoning across
+            the input channels and introduce Hierarchical Channel Sampling (HCS)
+            as an additional regularization technique to ensure robustness when
+            only partial channels are presented during test time. Our proposed
+            model, ChannelViT, constructs patch tokens independently from each
+            input channel and utilizes a learnable channel embedding that is
+            added to the patch tokens, similar to positional embeddings. We
+            evaluate the performance of ChannelViT on ImageNet, JUMP-CP
+            (microscopy cell imaging), and So2Sat (satellite imaging). Our
+            results show that ChannelViT outperforms ViT on classification tasks
+            and generalizes well, even when a subset of input channels is used
+            during testing. Across our experiments, HCS proves to be a powerful
+            regularizer, independent of the architecture employed, suggesting
+            itself as a straightforward technique for robust ViT training.
+            Lastly, we find that ChannelViT generalizes effectively even when
+            there is limited access to all channels during training,
+            highlighting its potential for multi-channel imaging under
+            real-world conditions with sparse sensors. Our code is available at
+            https://github.com/insitro/ChannelViT.</p>
+    </div>
+    
+    <!--[>[> Hidden bibtex block <]<]-->
+    <!---->
+  </div>
+</div>
+</li>
+<li>
 <div class="row" style="display:block">
   <div class="col-sm-2 abbr" style="margin: 0">
   
@@ -184,6 +301,8 @@
     
     
     
+      <a href="https://github.com/insitro/ContextViT" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="external nofollow noopener">Code</a>
+    
     
     
     
@@ -192,27 +311,7 @@
     
     <div class="abstract hidden">
       <p>
-        We present Contextual Vision Transformers (ContextViT), a method for
-        producing robust feature representations for images exhibiting grouped
-        structure such as covariates. ContextViT introduces an extra context
-        token to encode group-specific information, allowing the model to
-        explain away group-specific covariate structures while keeping core
-        visual features shared across groups. Specifically, given an input
-        image, Context-ViT maps images that share the same covariate into this
-        context token appended to the input image tokens to capture the effects
-        of conditioning the model on group membership. We furthermore introduce
-        a context inference network to predict such tokens on the fly given a
-        few samples from a group distribution, enabling ContextViT to generalize
-        to new testing distributions at inference time. We illustrate the
-        performance of ContextViT through a diverse range of applications. In
-        supervised fine-tuning, we demonstrate that augmenting pre-trained ViTs
-        with additional context conditioning leads to significant improvements
-        in out-of-distribution generalization on iWildCam and FMoW. We also
-        explored self-supervised representation learning with ContextViT. Our
-        experiments on the Camelyon17 pathology imaging benchmark and the
-        cpg-0000 microscopy imaging benchmark demonstrate that ContextViT excels
-        in learning stable image featurizations amidst covariate shift,
-        consistently outperforming its ViT counterpart.
+            We introduce Contextual Vision Transformers (ContextViT), a method designed to generate robust image representations for datasets experiencing shifts in latent factors across various groups. Derived from the concept of in-context learning, ContextViT incorporates an additional context token to encapsulate group-specific information. This integration allows the model to adjust the image representation in accordance with the group-specific context. Specifically, for a given input image, ContextViT maps images with identical group membership into this context token, which is appended to the input image tokens. Additionally, we introduce a context inference network to predict such tokens on-the-fly, given a batch of samples from the group. This enables ContextViT to adapt to new testing distributions during inference time. We demonstrate the efficacy of ContextViT across a wide range of applications. In supervised fine-tuning, we show that augmenting pre-trained ViTs with our proposed context conditioning mechanism results in consistent improvements in out-of-distribution generalization on iWildCam and FMoW. We also investigate self-supervised representation learning with ContextViT. Our experiments on the Camelyon17 pathology imaging benchmark and the JUMP-CP microscopy imaging benchmark demonstrate that ContextViT excels in learning stable image featurizations amidst distribution shift, consistently outperforming its ViT counterpart.
     </p>
     </div>
     
@@ -220,7 +319,8 @@
     <!---->
   </div>
 </div>
-</li></ol>
+</li>
+</ol>
 
   <h2 class="year">2022</h2>
   <ol class="bibliography">
@@ -2361,7 +2461,7 @@ Theoretical analysis and numerical results show that both the origin strong RRQR
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Yujia  Bao. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: June 01, 2023.
+Last updated: October 26, 2023.
       </div>
     </footer>
 
