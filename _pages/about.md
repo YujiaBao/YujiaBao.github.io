@@ -77,7 +77,7 @@ I'm driven by my love for learning and the excitement that comes from creating s
 4. **Yujia Bao**, Shiyu Chang, Regina Barzilay. [*"Learning Stable Classifiers by Transferring Unstable Features."*](https://arxiv.org/abs/2106.07847) ICML 2022.
 5. **Yujia Bao**, Regina Barzilay. [*"Learning to Split for Automatic Bias Detection."*](https://arxiv.org/abs/2204.13749) arXiv 2022.
 6. **Yujia Bao**, Theofanis Karaletsos. [*"Contextual Vision Transformers for Robust Representation Learning"*](https://arxiv.org/abs/2305.19402) SCIS Workshop at ICML 2023.
-7. **Yujia Bao**, Srinivasan Sivanandan, Theofanis Karaletsos. [*"Channel Vision Transformers: An Image Is Worth C x 16 x 16 Words"*](https://arxiv.org/abs/2309.16108v3) UniReps Workshp at NeurIPS 2023.
+7. **Yujia Bao**, Srinivasan Sivanandan, Theofanis Karaletsos. [*"Channel Vision Transformers: An Image Is Worth C x 16 x 16 Words"*](https://arxiv.org/abs/2309.16108v3) UniReps Workshop at NeurIPS 2023.
 
 <br>
 
