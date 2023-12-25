@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 <br>
 <br>
 
-###### 🧑🏻‍🔬 Lead machine learning scientist @ [Insitro](https://insitro.com)
+###### 🧑🏻‍🔬 Advanced AI Research Scientist @[Accenture](https://www.accenture.com/us-en)
 ###### 🐾 A proud owner of [samoyeds](https://www.whitenebulasamoyeds.com)
 ###### 🏛 Completed Ph.D. at [MIT CSAIL](https://www.csail.mit.edu)
 ###### 🏃‍♂️   Staying [active](https://rtrt.me/render/badges?e=TLMR-SPRING-CLASSIC-2023&pid=R6ZG37A2&resp=1&bgcolor=fff&filename=tlmr-spring-classic-2023r6zg37a2) in Cambridge, MA
